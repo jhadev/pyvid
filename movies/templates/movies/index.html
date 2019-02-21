@@ -16,7 +16,7 @@
       <tbody>
         {% for movie in movies %}
         <tr>
-          <td>
+          <td class="margin">
           <a href="{% url 'movies:detail' movie.id %}">{{movie.title}}</a>
           </td>
           <td class="margin">{{movie.release_year}}</td>
