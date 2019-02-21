@@ -26,7 +26,8 @@ SECRET_KEY = 'l0p5719*endgk(s!88bj$(6*x*=d!0&z3ij+zx5sl%v2kj#hm('
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'infinite-tor-45361.herokuapp.com'
+    'infinite-tor-45361.herokuapp.com',
+    'localhost'
 ]
 
 
