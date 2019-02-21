@@ -25,7 +25,9 @@ SECRET_KEY = 'l0p5719*endgk(s!88bj$(6*x*=d!0&z3ij+zx5sl%v2kj#hm('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://infinite-tor-45361.herokuapp.com/'
+]
 
 
 # Application definition
