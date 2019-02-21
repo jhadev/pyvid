@@ -1,26 +1,26 @@
 {% extends 'movies/base.html' %}}
 
 {% block content %}
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Year</th>
-        <th>Genre</th>
-        <th>Stock</th>
-        <th>Daily Rate</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for movie in movies %}
-        <tr>
-          <td>{{movie.title}}</td>
-          <td>{{movie.release_year}}</td>
-          <td>{{movie.genre}}</td>
-          <td>{{movie.number_in_stock}}</td>
-          <td>{{movie.daily_rate}}</td>
-        </tr>
-      {% endfor %} 
-    </tbody>
-  </table>
-{% endblock  %}
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Year</th>
+      <th>Genre</th>
+      <th>IMDB Rating</th>
+      <th>Metascore</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for movie in movies %}
+    <tr>
+      <td>{{movie.title}}</td>
+      <td>{{movie.release_year}}</td>
+      <td>{{movie.genre}}</td>
+      <td>{{movie.imdb_rating}}</td>
+      <td>{{movie.meta_score}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
