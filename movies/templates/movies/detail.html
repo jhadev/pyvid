@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <dl>
+    <dt>Title</dt>
+    <dd>{{movie.title}}</dd>
+    <dt>Year</dt>
+    <dd>{{movie.release_year}}</dd>
+    <dt>Genre</dt>
+    <dd>{{movie.genre}}</dd>
+    <dt>IMDB Rating</dt>
+    <dd>{{movie.imdb_rating}}</dd>
+    <dt>Metascore</dt>
+    <dd>{{movie.meta_score}}</dd>
+  </dl>
+{% endblock %}
