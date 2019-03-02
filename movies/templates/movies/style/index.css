@@ -1,6 +1,5 @@
 @media only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 900px) {
-
+  (min-device-width: 768px) and (max-device-width: 900px) {
   table,
   thead,
   tbody,
@@ -25,7 +24,6 @@
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
-
   }
 
   td:before {
@@ -60,5 +58,4 @@
   td:nth-of-type(5):before {
     content: "Minutes Away:";
   }
-
 }
